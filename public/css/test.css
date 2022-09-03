@@ -1,0 +1,118 @@
+#data {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#data th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+#data th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+#data th {
+  text-align: center;
+  color: white;
+  background: linear-gradient(#829ebc, #225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
+  /* width: 10%; */
+  padding: 10px 0;
+}
+
+
+
+#data td {
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top: none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  /* width: 10%; */
+  padding: 10px 0;
+}
+
+
+
+#data td:last-child {
+  border-right: 1px solid #a8b7c5;
+}
+
+#data tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+#data tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+h1 {
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  padding: 0.3em 0.5em;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  width: 280px;
+}
+
+.task {
+  margin-top: 40px;
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  padding: 0.3em 0.5em;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #dbffcc, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  width: 170px;
+}
+
+.task2 {
+  margin-top: 50px;
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  padding: 0.3em 0.5em;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #eaa47b52, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  width: 170px;
+}
+
+/* a.btn-border {
+
+  border-radius: 0;
+
+}
+
+a.btn-border:hover {
+  color: #fff;
+  background-color: rgb(173, 190, 241);
+} */
+
+
+
+.task3 {
+  width: 500px;
+  margin: 40px auto 30px auto;
+  text-align: left;
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  padding: 0.3em 0.5em;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #dbffcc, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+
+
+}
+
+dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+dl dd {
+  padding: 10px 0;
+}
